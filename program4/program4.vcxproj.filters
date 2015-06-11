@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Glew">
+      <UniqueIdentifier>{58f8136b-6121-4276-898d-a7ef927fb7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML">
+      <UniqueIdentifier>{98d0e028-72ff-4251-889a-53b47f0bdfae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML\Window">
+      <UniqueIdentifier>{9fe245c6-8c2d-431c-a561-2550056ba8ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\alwaysRed.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\simple.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glew\glew.c">
+      <Filter>Glew</Filter>
+    </ClCompile>
+    <ClCompile Include="program4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glew\glew.h">
+      <Filter>Glew</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\glxew.h">
+      <Filter>Glew</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\wglew.h">
+      <Filter>Glew</Filter>
+    </ClInclude>
+    <ClInclude Include="GLHelper.h" />
+    <ClInclude Include="RenderEngine.h" />
+    <ClInclude Include="ShaderManager.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="TrackBall.h" />
+    <ClInclude Include="SFML\Audio.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Config.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Graphics.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Network.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\System.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Window.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Window\Window.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Window\WindowHandle.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Window\WindowListener.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Window\WindowSettings.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Window\WindowStyle.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Window\Context.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Window\Event.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Window\Input.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Window\OpenGL.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\Window\VideoMode.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

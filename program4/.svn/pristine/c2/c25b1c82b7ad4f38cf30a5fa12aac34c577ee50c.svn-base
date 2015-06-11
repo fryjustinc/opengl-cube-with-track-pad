@@ -1,0 +1,32 @@
+﻿Build started 10/8/2013 8:10:18 AM.
+     1>Project "C:\Users\fryjc\Documents\School\Fall 2013\CSSE 351 Computer Graphics\csse351-201410-fryjc\program4\program4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-1.6\include" /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_DYNAMIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt program4.cpp
+         program4.cpp
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\shadermanager.h(49): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\shadermanager.h(51): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\shadermanager.h(156): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\cube.h(40): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\cube.h(41): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\cube.h(100): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\trackball.h(39): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\trackball.h(65): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\trackball.h(66): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\trackball.h(69): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\trackball.h(70): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\trackball.h(86): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\trackball.h(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\fryjc\documents\school\fall 2013\csse 351 computer graphics\csse351-201410-fryjc\program4\program4.cpp(172): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\fryjc\Documents\School\Fall 2013\CSSE 351 Computer Graphics\csse351-201410-fryjc\program4\Debug\program4.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-1.6\lib" "sfml-system.lib" "sfml-window.lib" opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\fryjc\Documents\School\Fall 2013\CSSE 351 Computer Graphics\csse351-201410-fryjc\program4\Debug\program4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\fryjc\Documents\School\Fall 2013\CSSE 351 Computer Graphics\csse351-201410-fryjc\program4\Debug\program4.lib" /MACHINE:X86 /SAFESEH Debug\glew.obj
+         Debug\program4.obj
+         program4.vcxproj -> C:\Users\fryjc\Documents\School\Fall 2013\CSSE 351 Computer Graphics\csse351-201410-fryjc\program4\Debug\program4.exe
+     1>Done Building Project "C:\Users\fryjc\Documents\School\Fall 2013\CSSE 351 Computer Graphics\csse351-201410-fryjc\program4\program4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.91
